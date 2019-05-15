@@ -1,0 +1,6 @@
+_res
+dist
+node_modules
+npm-debug.log
+.editorconfig
+.DS_Store
