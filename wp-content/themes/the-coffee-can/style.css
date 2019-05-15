@@ -50,7 +50,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	 ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.z
+ * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
@@ -77,7 +77,7 @@ body {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	margin: 0.67em ;
 }
 
 /* Grouping content
@@ -614,15 +614,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
 }
 
 a:visited {
-	color: purple;
+	color: black;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: white;
 }
 
 a:focus {
@@ -641,15 +641,13 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
-	background-color: #A61919;
-	overflow: hidden;
-	border: solid black 2px;
 }
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
+	padding-left: 0;
 }
 
 .main-navigation ul ul {
@@ -688,21 +686,6 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: white;
-	padding: 10px 20px 10px 20px;
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-}
-
-.main-navigation a:hover {
-	background-color: whitesmoke;
-	color: #402b30;
-}
-
-.main-navigation a.active {
-	background-color: whitesmoke;
-	color: #402b30;
 }
 
 /* Small menu. */
@@ -720,8 +703,8 @@ a:hover, a:active {
 	}
 }
 
-.site-main .comment-navigation, .site-main,
-.posts-navigation, .site-main,
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
 .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
@@ -1000,3 +983,60 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/* additional css */
+.site-header {
+	position: relative;
+	padding: 1em;
+	color: #fff;
+	background-color: #E5650D ;
+}
+
+.site-branding {
+	min-height: 65px;
+}
+
+.site-footer {
+	background-color: #E5650D;
+	padding: 1em;
+}
+
+.site-title {
+	font-family: arial;
+	color: black;
+}
+
+.site-info {
+	text-align: center;
+}
+.site-title a {
+	color: black;
+}
+
+.site-title a:visited {
+	color: black;
+}
+
+.site-title a:hover, a:focus, a:active {
+	color: white;
+}
+
+.site-title a:focus {
+	outline: thin dotted;
+}
+
+.site-title a:hover, a:active {
+	outline: 0;
+}
+
+.logo-img {
+	float: left;
+}
+
+.title-desc {
+	float: right;
+}
+
+
+

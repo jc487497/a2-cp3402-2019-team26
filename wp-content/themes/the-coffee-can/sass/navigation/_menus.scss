@@ -3,9 +3,6 @@
 	display: block;
 	float: left;
 	width: 100%;
-	background-color: #A61919;
-	overflow: hidden;
-	border: solid black 2px;
 
 	ul {
 		display: none;
@@ -35,13 +32,6 @@
 
 			a {
 				width: 200px;
-				display: block;
-				text-decoration: none;
-				color: white;
-				padding: 10px 20px 10px 20px;
-				font-weight: bold;
-				font-size: 20px;
-				text-align: center;
 			}
 
 			:hover > a,
