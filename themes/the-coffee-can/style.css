@@ -1012,3 +1012,99 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+
+/* additional  for header and footer */
+.site-header {
+	position: relative;
+	padding: 1em;
+	color: #fff;
+	background-color: #E5650D ;
+}
+
+.site-branding {
+	float: left;
+	min-height: 65px;
+}
+
+.site-footer {
+	background-color: #E5650D;
+	padding: 1em;
+}
+
+.social-menu ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.social-menu a{
+	display: block;
+	padding: .5em 1em;
+	text-decoration: none;}
+
+.social-menu a :hover,
+:focus {
+	text-decoration: underline ;
+}
+
+
+
+
+.site-title {
+	font-family: arial;
+	color: black;
+}
+
+.site-description{
+	margin: 1.5em ;
+
+}
+
+.site-info {
+	text-align: center;
+}
+.site-title a {
+	color: black;
+	text-decoration: none;
+}
+
+.site-title a:visited {
+	color: black;
+}
+
+.site-title a:hover, a:focus, a:active {
+	color: white;
+}
+
+.site-title a:focus {
+	outline: thin dotted;
+}
+
+.site-title a:hover, a:active {
+	outline: 0;
+}
+
+.logo-img {
+	float: left;
+}
+
+.title-desc {
+	float: right;
+}
+
+.social-links {
+	float: right;
+	margin: 1em;
+}
+
+.header-image{
+	margin: 0;
+}
+
+figure {
+	margin: 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
