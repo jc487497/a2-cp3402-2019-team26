@@ -77,7 +77,7 @@ body {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em ;
+	margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin-bottom: 1.5em;
-}
+	}
 
 dfn, cite, em, i {
 	font-style: italic;
@@ -453,6 +453,7 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+
 
 /*--------------------------------------------------------------
 # Elements
@@ -614,15 +615,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: black;
+	color: royalblue;
 }
 
 a:visited {
-	color: black;
+	color: purple;
 }
 
 a:hover, a:focus, a:active {
-	color: white;
+	color: midnightblue;
 }
 
 a:focus {
@@ -641,9 +642,6 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
-	background-color: #A61919;
-	overflow: hidden;
-	border: solid black 2px;
 }
 
 .main-navigation ul {
@@ -689,21 +687,6 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: white;
-	padding: 10px 20px 10px 20px;
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-}
-
-.main-navigation a:hover {
-	background-color: whitesmoke;
-	color: #402b30;
-}
-
-.main-navigation a.active {
-	background-color: whitesmoke;
-	color: #402b30;
 }
 
 /* Small menu. */
@@ -827,6 +810,7 @@ a:hover, a:active {
 	content: "";
 	display: table;
 	table-layout: fixed;
+
 }
 
 .clear:after,
@@ -842,6 +826,7 @@ a:hover, a:active {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
+	border-top:4px solid #1a1a1a;
 	margin: 0 0 1.5em;
 	/* Make sure select elements fit in widgets. */
 }
@@ -849,6 +834,12 @@ a:hover, a:active {
 .widget select {
 	max-width: 100%;
 }
+.widget-area{
+	float: right;
+	padding: 20px;
+	height: 100%;
+	box-shadow: 5px 10px #888888;}
+
 
 /*--------------------------------------------------------------
 # Content
@@ -873,6 +864,8 @@ a:hover, a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	width: 70%;
+	float: left;
 }
 
 .page-links {
@@ -1001,60 +994,3 @@ object {
 .gallery-caption {
 	display: block;
 }
-
-
-/* additional css */
-.site-header {
-	position: relative;
-	padding: 1em;
-	color: #fff;
-	background-color: #E5650D ;
-}
-
-.site-branding {
-	min-height: 65px;
-}
-
-.site-footer {
-	background-color: #E5650D;
-	padding: 1em;
-}
-
-.site-title {
-	font-family: arial;
-	color: black;
-}
-
-.site-info {
-	text-align: center;
-}
-.site-title a {
-	color: black;
-}
-
-.site-title a:visited {
-	color: black;
-}
-
-.site-title a:hover, a:focus, a:active {
-	color: white;
-}
-
-.site-title a:focus {
-	outline: thin dotted;
-}
-
-.site-title a:hover, a:active {
-	outline: 0;
-}
-
-.logo-img {
-	float: left;
-}
-
-.title-desc {
-	float: right;
-}
-
-
-
