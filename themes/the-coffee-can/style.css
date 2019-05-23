@@ -1107,8 +1107,15 @@ object {
 }
 
 .header-image{
-	margin: 0;
+	max-height: 60vh;
+	overflow: hidden;
 }
+
+.header-image img {
+	display: block;
+	width: 100vw;
+}
+
 
 figure {
 	margin: 0; /* Extra wide images within figure tags don't overflow the content area. */
