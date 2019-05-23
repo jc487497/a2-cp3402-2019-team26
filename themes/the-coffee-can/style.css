@@ -642,6 +642,9 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #A61919;
+	overflow: hidden;
+	border: solid black 2px;
 }
 
 .main-navigation ul {
@@ -687,6 +690,21 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.main-navigation a:hover {
+	background-color: whitesmoke;
+	color: #402b30;
+}
+
+.main-navigation a.active {
+	background-color: whitesmoke;
+	color: #402b30;
 }
 
 /* Small menu. */
