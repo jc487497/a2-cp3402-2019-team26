@@ -45,7 +45,6 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'the-coffee-can' ),
-			'social' => esc_html__('Social Media Menu', 'the-coffee-can'),
 		) );
 
 		/*
@@ -74,10 +73,9 @@ if ( ! function_exists( 'the_coffee_can_setup' ) ) :
 		 *
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
-
 		add_theme_support( 'custom-logo', array(
-			'height'      => 120,
-			'width'       => 120,
+			'height'      => 250,
+			'width'       => 250,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );

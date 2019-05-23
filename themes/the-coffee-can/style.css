@@ -641,6 +641,9 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #A61919;
+	overflow: hidden;
+	border: solid black 2px;
 }
 
 .main-navigation ul {
@@ -686,6 +689,21 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.main-navigation a:hover {
+	background-color: whitesmoke;
+	color: #402b30;
+}
+
+.main-navigation a.active {
+	background-color: whitesmoke;
+	color: #402b30;
 }
 
 /* Small menu. */
@@ -910,8 +928,6 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
-	width: 120px;
-	height: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -996,7 +1012,6 @@ object {
 }
 
 .site-branding {
-	float: left;
 	min-height: 65px;
 }
 
@@ -1005,35 +1020,9 @@ object {
 	padding: 1em;
 }
 
-.social-menu ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.social-menu a{
-    display: block;
-    padding: .5em 1em;
-    text-decoration: none;}
-
-.social-menu a :hover,
-        :focus {
-             text-decoration: underline ;
-    }
-
-
-
-
 .site-title {
 	font-family: arial;
 	color: black;
-}
-
-.site-description{
-	margin: 1.5em ;
-
 }
 
 .site-info {
@@ -1041,7 +1030,6 @@ object {
 }
 .site-title a {
 	color: black;
-    text-decoration: none;
 }
 
 .site-title a:visited {
@@ -1067,20 +1055,6 @@ object {
 .title-desc {
 	float: right;
 }
-
-.social-links {
-	float: right;
-	margin: 1em;
-}
-
-.header-image{
-    margin: 0;
-}
-
-figure {
-    margin: 0; /* Extra wide images within figure tags don't overflow the content area. */
-}
-
 
 
 

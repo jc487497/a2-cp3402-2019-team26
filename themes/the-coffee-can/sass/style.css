@@ -504,7 +504,7 @@ img {
 }
 
 figure {
-  margin: 0;
+  margin: 1em 0;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -781,7 +781,6 @@ a:hover, a:active {
   display: table;
   table-layout: fixed;
 }
-
 .clear:after,
 .entry-content:after,
 .comment-content:after,
