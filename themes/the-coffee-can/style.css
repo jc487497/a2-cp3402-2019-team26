@@ -949,6 +949,11 @@ object {
 	height: 120px;
 }
 
+.custom-logo{
+	width: 120px;
+	height: 120px;
+}
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
@@ -1109,6 +1114,7 @@ object {
 .header-image{
 	max-height: 60vh;
 	overflow: hidden;
+
 }
 
 .header-image img {
