@@ -402,8 +402,12 @@ textarea {
 	line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
+	margin-left: 125px;
+}
+h2, h3, h4, h5, h6 {
 	clear: both;
+	margin-left: 50px;
 }
 
 p {
@@ -856,7 +860,8 @@ a:hover, a:active {
 	float: right;
 	padding: 20px;
 	height: 100%;
-	box-shadow: 5px 10px #888888;}
+	margin-right: 125px;
+	box-shadow: 0px 10px #888888;}
 
 
 /*--------------------------------------------------------------
@@ -882,7 +887,8 @@ a:hover, a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
-	width: 70%;
+	margin-left: 125px;
+	width: 50%;
 	float: left;
 }
 
