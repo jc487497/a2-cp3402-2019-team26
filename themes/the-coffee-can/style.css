@@ -1015,7 +1015,7 @@ object {
 
 
 
-/* additional  for header and footer */
+/* additional style for header and footer */
 .site-header {
 	position: relative;
 	padding: 1em;
@@ -1050,9 +1050,6 @@ object {
 :focus {
 	text-decoration: underline ;
 }
-
-
-
 
 .site-title {
 	font-family: arial;
