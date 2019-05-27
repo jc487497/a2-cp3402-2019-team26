@@ -1034,6 +1034,7 @@ object {
 	color: #fff;
 	width: 100%;
 	min-height: inherit;
+	background-color: white;
 }
 
 .site-branding {
