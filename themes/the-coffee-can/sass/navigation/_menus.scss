@@ -2,10 +2,14 @@
 	clear: both;
 	display: block;
 	float: left;
-	width: 100%;
-	background-color: #A61919;
+	background-color: black;
 	overflow: hidden;
 	border: solid black 2px;
+	position: absolute;
+	right: 2%;
+	top: 2%;
+	border-radius: 25px;
+	width: fit-content;
 
 	ul {
 		display: none;
@@ -42,6 +46,7 @@
 				font-weight: bold;
 				font-size: 20px;
 				text-align: center;
+
 			}
 
 			:hover > a,
@@ -50,6 +55,9 @@
 
 			a:hover,
 			a.focus {
+				background-color: lightgreen;
+				color: #402b30;
+				border-radius: 25px;
 			}
 		}
 
