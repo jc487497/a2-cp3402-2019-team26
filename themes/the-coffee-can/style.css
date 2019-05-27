@@ -652,6 +652,8 @@ a:hover, a:active {
 	overflow: hidden;
 	border: solid black 2px;
 	margin-left: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 .main-navigation ul {
@@ -1034,7 +1036,6 @@ object {
 	color: #fff;
 	width: 100%;
 	min-height: inherit;
-	background-color: white;
 }
 
 .site-branding {
