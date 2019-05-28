@@ -17,11 +17,11 @@ The project has two main branches:
 * Staging: The branch used by the staging site (Your local development environment should be on this branch)
 
 ### Feature Branches
-When developing new features for the theme, do not work directly on the Staging branch. Make an appropriately named 
-feature branch off of Staging. When the feature is finished, it should be merged back into 'Staging'.
+When developing new features for the theme, do not work directly on the 'Staging' branch. Make an appropriately named 
+feature branch off of 'Staging'. When the feature is finished, it should be merged back into 'Staging'.
 
 As an example, if you wanted to develop the themes header, you would:
-1. Make a new branch from Staging called 'header'
+1. Make a new branch from 'Staging' called 'header'
 2. Make changes to the themes header and test them within the 'header' branch
 3. Merge the 'header' branch back into the 'Staging' branch when the header is complete
 
@@ -88,7 +88,7 @@ staging site but not yet added to the repository. To add them, do the following:
 After this is done, merge the 'Staging' branch into the 'master' branch and the webhook will automatically update the 
 production sites wp-content folder. Then migrate the database from the staging site to the production site to finish up.
 
-### The sites aren't updating by themeselves. Help!
+### The sites aren't updating by themselves. Help!
 
 While the webhooks should work fine most of the time, occasionally they may not work when a commit is pushed. This is 
 usually because the sites local version of the repository has a commit that is not on the remote version. When this
