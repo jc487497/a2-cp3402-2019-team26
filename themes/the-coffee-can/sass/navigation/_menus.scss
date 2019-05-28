@@ -2,10 +2,10 @@
 	clear: both;
 	display: block;
 	float: left;
+	background-color: #E5650D;
+	text-align: center;
 	width: 100%;
-	background-color: #A61919;
-	overflow: hidden;
-	border: solid black 2px;
+	overflow: visible;
 
 	ul {
 		display: none;
@@ -35,13 +35,8 @@
 
 			a {
 				width: 200px;
-				display: block;
-				text-decoration: none;
-				color: white;
-				padding: 10px 20px 10px 20px;
-				font-weight: bold;
-				font-size: 20px;
-				text-align: center;
+				background-color: #efefef;
+				color: black;
 			}
 
 			:hover > a,
@@ -50,6 +45,8 @@
 
 			a:hover,
 			a.focus {
+				background-color: black;
+				color: white;
 			}
 		}
 
@@ -60,8 +57,10 @@
 	}
 
 	li {
-		float: left;
 		position: relative;
+		display:inline-block;
+		float:none;
+		margin-left: -5px;
 
 		&:hover > a,
 		&.focus > a {
@@ -71,6 +70,12 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: white;
+		background-color: #E5650D;
+		padding: 10px 20px 10px 20px;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
 	}
 
 	.current_page_item > a,

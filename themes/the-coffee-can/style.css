@@ -77,7 +77,7 @@ body {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	margin: 0;
 }
 
 /* Grouping content
@@ -402,8 +402,13 @@ textarea {
 	line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
+	margin-left: 125px;
+	margin-top: 50px;
+}
+h2, h3, h4, h5, h6 {
 	clear: both;
+	margin-left: 50px;
 }
 
 p {
@@ -641,7 +646,10 @@ a:hover, a:active {
 	clear: both;
 	display: block;
 	float: left;
+	background-color: #E5650D;
+	text-align: center;
 	width: 100%;
+	overflow: visible;
 }
 
 .main-navigation ul {
@@ -672,6 +680,8 @@ a:hover, a:active {
 
 .main-navigation ul ul a {
 	width: 200px;
+	background-color: #efefef;
+	color: black;
 }
 
 .main-navigation ul li:hover > ul,
@@ -680,14 +690,28 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-	float: left;
 	position: relative;
+	display:inline-block;
+	float:none;
+	margin-left: -5px;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+
 }
+
+.main-navigation a:hover {
+	background-color: black;
+	color: white;
+}
+
 
 /* Small menu. */
 .menu-toggle,
@@ -838,7 +862,8 @@ a:hover, a:active {
 	float: right;
 	padding: 20px;
 	height: 100%;
-	box-shadow: 5px 10px #888888;}
+	margin-right: 125px;
+	box-shadow: 0px 10px #888888;}
 
 
 /*--------------------------------------------------------------
@@ -864,7 +889,8 @@ a:hover, a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
-	width: 70%;
+	margin-left: 125px;
+	width: 50%;
 	float: left;
 }
 
@@ -921,6 +947,14 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+	padding: 1em;
+
+}
+
+.custom-logo{
+	width: 50px;
+	height: 50px;
+
 }
 
 /*--------------------------------------------------------------
@@ -993,4 +1027,112 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+
+/* additional style for header and footer */
+.site-header {
+	color: #fff;
+	width: 100%;
+	min-height: inherit;
+}
+
+.site-branding {
+	position: absolute;
+	z-index: 10;
+	min-height: inherit;
+	width: inherit ;
+}
+
+.site-footer {
+	background-color: #E5650D;
+	padding: 1em;
+}
+
+.social-menu ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.social-menu a{
+	display: block;
+	padding: .5em 1em;
+	text-decoration: none;}
+
+.social-menu a :hover,
+:focus {
+	text-decoration: underline ;
+}
+
+.site-title {
+	font-family: arial;
+	color: black;
+	text-align: center;
+	font-size: 5vw;
+	margin: 0;
+}
+
+.site-description{
+	position: center;
+	text-align: center;
+	margin: 0;
+	color: black;
+	font-size: 1.5vw;
+}
+
+.site-info {
+	text-align: center;
+}
+.site-title a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.site-title a:visited {
+	color: black;
+}
+
+.site-title a:hover, a:focus, a:active {
+	color: #2d2d2d;
+}
+
+.site-title a:focus {
+	outline: thin dotted;
+}
+
+.site-title a:hover, a:active {
+	outline: 0;
+}
+
+
+
+.title-desc {
+	vertical-align: baseline;
+	background-color: white;
+	opacity: 0.5;}
+
+
+.social-links {
+	margin: 1em;
+}
+
+.header-image{
+	max-height: 60vh;
+	overflow: hidden;
+
+}
+
+.header-image img {
+	display: block;
+	width: 100vw;
+}
+
+
+figure {
+	margin: 0; /* Extra wide images within figure tags don't overflow the content area. */
 }
