@@ -36,7 +36,7 @@ Box
  **git clone https://github.com/cp3402-students/a2-cp3402-2019-team26.git -b Staging** to clone the website files
 5. Rename the folder containing the project files to **wp-content**
 6. [Open your Scotch box in your web browser](192.168.33.10) and follow the Wordpress installation process
-7. When prompted to enter the database details, change the table prefix option to **wp8v**
+7. When prompted to enter the database details, change the table prefix option to **wpae\_**
 8. Open the project files in your IDE of choice and [add any local project files to .gitignore]
 (https://git-scm.com/docs/gitignore)
 9. Add the [theme unit test](https://codex.wordpress.org/Theme_Unit_Test) to your local wordpress site
@@ -122,10 +122,10 @@ To migrate the database from one environment to another:
 
 ### After migrating the database, Wordpress runs the installer. What went wrong?
 
-Wordpress looks for database tables with a specific table prefix, in this case wp8v_. If this value is set 
+Wordpress looks for database tables with a specific table prefix, in this case wpae_. If this value is set 
 incorrectly it won't find the new tables so it will try to run a fresh install.
 
 This problem has a simple fix:
 1. Open the wp-config file located in the root folder of your wordpress install
 2. Search for the table_prefix variable
-3. Change it to **wp8v_**
+3. Change it to **wpae\_**
