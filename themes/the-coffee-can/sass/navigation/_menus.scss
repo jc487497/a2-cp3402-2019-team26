@@ -2,14 +2,11 @@
 	clear: both;
 	display: block;
 	float: left;
-	background-color: black;
-	border-radius: 25px;
-	width: fit-content;
-	overflow: hidden;
-	border: solid black 2px;
-	margin-left: 25%;
-	margin-top: 1%;
-	margin-bottom: 1%;
+	background-color: #E5650D;
+	text-align: center;
+	margin-top: 10%;
+	width: 100%;
+	overflow: visible;
 
 	ul {
 		display: none;
@@ -39,14 +36,6 @@
 
 			a {
 				width: 200px;
-				display: block;
-				text-decoration: none;
-				color: white;
-				padding: 10px 20px 10px 20px;
-				font-weight: bold;
-				font-size: 20px;
-				text-align: center;
-
 			}
 
 			:hover > a,
@@ -55,9 +44,8 @@
 
 			a:hover,
 			a.focus {
-				background-color: lightgreen;
-				color: #402b30;
-				border-radius: 25px;
+				background-color: black;
+				color: white;
 			}
 		}
 
@@ -68,8 +56,10 @@
 	}
 
 	li {
-		float: left;
 		position: relative;
+		display:inline-block;
+		float:none;
+		margin-left: -5px;
 
 		&:hover > a,
 		&.focus > a {
@@ -79,6 +69,12 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: white;
+		background-color: #E5650D;
+		padding: 10px 20px 10px 20px;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
 	}
 
 	.current_page_item > a,
