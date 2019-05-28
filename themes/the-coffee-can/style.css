@@ -680,6 +680,8 @@ a:hover, a:active {
 
 .main-navigation ul ul a {
 	width: 200px;
+	background-color: #efefef;
+	color: black;
 }
 
 .main-navigation ul li:hover > ul,
@@ -698,7 +700,6 @@ a:hover, a:active {
 	display: block;
 	text-decoration: none;
 	color: white;
-	background-color: #E5650D;
 	padding: 10px 20px 10px 20px;
 	font-weight: bold;
 	font-size: 20px;
